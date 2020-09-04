@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios (Inputs)</h1>
+   
+    <form>
+        <label for="Nombre">Nombre</label>
+        <input type="text" required placeholder="Ingresa tu nombre" id="Nombre" >
+        <br/>
+        <br/>
+        <label for="Apellido">Apellido</label>
+        <input type="text" required placeholder="Ingresa tu Apellido" id="Apellido" >
+        <br/>
+        <br/>
+        <label for="Email">Email</label>
+        <input type="email" required placeholder="Ingresa tu correo" id="Email">
+        <br/>
+        <br/>
+        <label for="Password">Password</label>
+        <input type="password" required id="Password" min="6" max="10">
+        <br/>
+        <br/>
+        <label for="Num">Telefono</label>
+        <input type="Number" min="0" max="10" id="numero" placeholder="Ingresar número de telefono">
+        <br/>
+        <br/>
+        <h2>Selecciona una poción</h2>
+        <input type="radio" id="Hombre" checked value="Masculino" >Masculino
+        <input type="radio" id="Mijer" value="Femenino" >Femenino
+        <br/>
+        <br/>
+        <h3>Selecciona los equipos que tengas en casa</h3>
+        <input type="checkbox" value="laptop">Laptop
+        <br>
+        <input type="checkbox" value="celular">Celular
+        <br>
+        <input type="checkbox" value="tableta">Tableta
+        <br>
+        <input type="checkbox" value="PC">PC Escritorio
+        <br/>
+        <br/>
+        <label for="">Selecciona una opción</label>
+        <select  id="Pais">
+            <option value="0">Selecciona un País</option>
+            <option value="1">México</option>
+            <option value="2">EUA</option>
+            <option value="3">España</option>
+        </select>
+        <br/>
+        <br/>
+        <label for="fecha">Selecciona fecha</label>
+        <input type="date" min="2020-01-01" max="2020-12-31" value="2020-09-04">
+        <br/>
+        <br/>
+        <label for="mes">Selecciona el Mes</label>
+        <input type="month" min="2020-01" max="2020-12" value="2020-09" >
+        <br/>
+        <br/>
+        <label for="año">Selecciona el Año</label>
+        <input type="year" min="2010" max="2020" value="2020">
+        <br>
+        <br>
+        <label for="color">Selecciona un color</label>
+        <input type="color">
+        <br/>
+        <br/>
+        <label for="volumen">volumen</label>
+        <input type="range">
+    </form>
+    
+</body>
+</html>
