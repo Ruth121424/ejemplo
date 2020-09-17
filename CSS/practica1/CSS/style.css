@@ -17,7 +17,7 @@ section{
 }
 
 .sec1{
-    background: url("./../IMG/luna.jpg"); /* Mandamos llamar una imagen en el css*/
+    background: url("./../../IMG/"); /* Mandamos llamar una imagen en el css*/
     background-repeat: no-repeat; /*Nose repita la imagen */
     background-size: cover; /* Para que se ponga toda la pantalla */
     background-position: center ; /**/
@@ -25,7 +25,7 @@ section{
 }
 
 .sec2{
-    background: url("./../IMG/Flores.jpg");
+    background: url("./../../IMG/Flores.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -33,7 +33,7 @@ section{
 }
 
 .sec3{
-    background: url("./../IMG/superluna-de-mayo.png");
+    background: url("./../../IMG/");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
