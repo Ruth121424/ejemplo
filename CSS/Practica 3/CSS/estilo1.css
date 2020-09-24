@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.slider{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background: #f807e4;
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-style: 50px;
+    color: #f807e4;
+    background: #000000;
+}
+
+.slider > ul{
+    display: flex;
+    padding: 0;
+    width: 1000%;
+    animation: carrousel 10s infinite alternate;
+
+}
+
+.slider > ul > li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider > ul > li > img{
+    width: 100%;
+    height: 95%vh;
+
+}
+
+@keyframes carrousel{
+    0%{
+        margin-left: 0%;
+    }
+    5%{
+        margin-left: 0%;
+    }
+    10%{
+        margin-left: -100%;
+    }
+    15%{
+        margin-left: -100%;
+    }
+    20%{
+        margin-left: -200%;
+    }
+    25%{
+        margin-left: -200%;
+    }
+    30%{
+        margin-left: -300%;
+    }
+    35%{
+        margin-left: -300%;
+    }
+    40%{
+        margin-left: -400%;
+    }
+    45%{
+        margin-left: -400%;
+    }
+    50%{
+        margin-left: -500%;
+    }
+    55%{
+        margin-left: -500%;
+    }
+    60%{
+        margin-left: -600%;
+    }
+    65%{
+        margin-left: -600%;
+    }
+    70%{
+        margin-left: -700%;
+    }
+    85%{
+        margin-left: -700%;
+    }
+    90%{
+        margin-left: -800%;
+    }
+    95%{
+        margin-left: -800%;
+    }
+    100%{
+        margin-left: -900%;
+    }
+
+}

@@ -22,7 +22,7 @@ h1{
     display: flex;/*Se utiliza para mover las imagenes de manera horizontal*/
     padding: 0px;
     width: 400%;
-    animation: carrousel 10s infinite;
+    animation: carrousel 10s infinite alternate;
 }
 
 .slider > ul > li{
