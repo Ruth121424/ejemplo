@@ -1,0 +1,156 @@
+h2{
+    color: #9e03f8;
+    font-size: 50px;
+
+}
+
+.caja1{
+    width: 75%;
+    height: 130px;
+    background: #9e03f8;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.caja1 > div {
+    background: #f88400;
+    margin: 10px;
+    padding: 20px;
+    width: 175px;
+    height: 70px;
+  
+}
+
+.caja1 > .ch1{
+    background: #f88400;
+    margin: 10px;
+    padding: 20px;
+    width: 80px;
+    height: 70px;
+ 
+}
+
+.caja2{
+    width: 75%;
+    height: 130px;
+    background: #9e03f8;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+.caja2 > div{
+    background: #f88400;
+    margin: 10px;
+    padding: 20px;
+    width: 175px;
+    height: 70px;
+  
+}
+.caja2 > .ch1{
+    background: #f88400;
+    margin: 10px;
+    padding: 20px;
+    width: 80px;
+    height: 70px;
+ 
+}
+
+.caja3{
+    width: 75%;
+    height: 130px;
+    background: #9e03f8;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.caja3 > div{
+    background: #f88400;
+    margin: 10px;
+    padding: 20px;
+    width: 175px;
+    height: 70px;
+  
+}
+
+.caja3 > .ch1{
+    background: #f88400;
+    margin: 10px;
+    padding: 20px;
+    width: 80px;
+    height: 70px;
+}
+
+.caja4 {
+    width: 75%;
+    height: 130px;
+    background: #9e03f8;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.caja4 > div {
+    background: #f88400;
+    margin: 10px;
+    padding: 20px;
+    width: 175px;
+    height: 70px;
+}
+.caja4 > .ch1{
+    background: #f88400;
+    margin: 10px;
+    padding: 20px;
+    width: 80px;
+    height: 70px;
+}
+
+.caja5{
+    width: 75%;
+    height: 130px;
+    background: #9e03f8;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.caja5 > div{
+    background: #f88400;
+    margin: 10px;
+    padding: 20px;
+    width: 175px;
+    height: 70px;
+}
+
+.caja5 > .ch1{
+    background: #f88400;
+    margin: 10px;
+    padding: 20px;
+    width: 80px;
+    height: 70px;
+}
+.caja6{
+    width: 75%;
+    height: 130px;
+    background: #9e03f8;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.caja6 > div{
+    background: #f88400;
+    margin: 10px;
+    padding: 20px;
+    width: 175px;
+    height: 70px;
+}
+
+.caja6 > .ch1{
+    background: #f88400;
+    margin: 10px;
+    padding: 20px;
+    width: 80px;
+    height: 70px;
+}

@@ -97,10 +97,14 @@ h1::first-letter{
     font-size: 20px;
 }
 
+.subtitulo{
+    text-align: center;
+}
+
 .center{
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .flex-start{
@@ -119,7 +123,7 @@ h1::first-letter{
     font-size: 20px;
 }
 
-.justifycontent > .flex-start >div{
+.justify-content > .flex-start > div{
     width: 30px;
     height: 30px;
     background: #000000;
@@ -128,4 +132,95 @@ h1::first-letter{
     padding: 20px;
     font-size: 20px;
 
+}
+
+#subtitulo3{
+    text-align: right;
+}
+ 
+ 
+ 
+.flexend{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+.flexend > div{
+    width: 30px;
+    height: 30px;
+    background: #000000;
+    color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#subtitulo4{
+    text-align: center;
+    
+}
+
+.spacearound{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.spacearound > div{
+    width: 30px;
+    height: 30px;
+    background: #000000;
+    color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.spacebetween{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.spacebetween > div{
+    width: 30px;
+    height: 30px;
+    background: #000000;
+    color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.spaceevenly{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.spaceevenly > div{
+    width: 30px;
+    height: 30px;
+    background: #000000;
+    color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.itemscenter{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.itemscenter > div{
+    width: 30px;
+    height: 30px;
+    background: #000000;
+    color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
 }
