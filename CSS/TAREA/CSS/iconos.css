@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(218, 145, 255);
+}
+
+h1{
+    font-family: cursive;
+    text-align: center;
+}
+
+.fila1{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    padding-left: 25%;
+}
+
+.fila1 > .ins > a > .fa{
+    width: 250px;
+    height: 30vh;
+    font-size: 200px;
+    background: rgb(247, 54, 231);
+    color: cornsilk;
+}
+
+.fila1 > .tw > a > .fa{
+    width: 250px;
+    height: 30vh;
+    font-size: 200px;
+    background: rgb(64, 149, 247);
+    color: cornsilk;
+}
+
+.fila1 > .yo > a .fa{
+    width: 250px;
+    height: 30vh;
+    font-size: 200px;
+    background: rgb(250, 3, 3);
+    color: cornsilk;
+}
+
+
+.fila2{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    padding-left: 25%;
+}
+
+.fila2 > .pin > a > .fa{
+    width: 250px;
+    height: 30vh;
+    font-size: 200px;
+    background: rgb(250, 3, 3);
+    color: cornsilk;
+}
+
+.fila2 > .fac > a > .fa{
+    width: 250px;
+    height: 30vh;
+    font-size: 200px;
+    background: rgb(10, 51, 233);
+    color: cornsilk;
+}
+
+.fila2 > .lin > a > .fa{
+    width: 250px;
+    height: 30vh;
+    font-size: 200px;
+    background: rgb(50, 86, 246);
+    color: cornsilk;
+}
+
+.fila3{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    padding-left: 25%;
+}
+
+.fila3 > .sn > a > .fa{
+    width: 250px;
+    height: 30vh;
+    font-size: 200px;
+    background: rgb(232, 248, 6);
+    color: cornsilk;
+}
+
+.fila3 > .wha > a > .fa{
+    width: 250px;
+    height: 30vh;
+    font-size: 200px;
+    background: rgb(11, 230, 29);
+    color: cornsilk;
+}
+
+.fila3 > .go > a > .fa{
+    width: 250px;
+    height: 30vh;
+    font-size: 200px;
+    background: rgb(189, 1, 1);
+    color: cornsilk;
+}

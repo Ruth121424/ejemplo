@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #47db9d;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 2%;
+    color: #f504fd;
+}
+
+.fila1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.fila1 > a > .fa{
+    font-size: 100px;
+    cursor: pointer;
+}
+
+.fila1 > a > .fa:hover{
+    color: rgb(219, 205, 6);
+}
+
+.fila2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.fila2 > a > .fa{
+    font-size: 100px;
+    cursor: pointer;
+}
+
+.fila2 > a > .fa:hover{
+    color: rgb(219, 205, 6);
+}
+
+.fila3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.fila3 > a > .fa{
+    font-size: 100px;
+    cursor: pointer;
+}
+
+.fila3 > a > .fa:hover{
+    color: rgb(219, 205, 6);
+}

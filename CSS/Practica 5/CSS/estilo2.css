@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+body{
+    background: #929191;
+    margin: 10% 10%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family:'Ultra', serif; 
+}
+
+p{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.letra-color{
+    color: #5f5d5d;
+}
+
+#cuadrito{
+    color: salmon;
+}
+
+.fila1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.centerflex-end{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.flex-start{
+    justify-content: flex-start;
+    display: flex;
+    width: 30%;
+    height: 30%;
+    padding: 15px;
+    background: #ffffff;
+}
+
+.texto{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#morado{
+    background: #88022f;
+    width: 20px;
+    height: 25px;
+    padding: 25px;
+}
+
+#azul{
+    background: #04c0d1;
+    width: 30px;
+    height: 25px;
+    padding: 25px;
+}
+
+#melon{
+    background: tomato;
+    width: 10px;
+    height: 25px;
+    padding: 25px;
+}
+
+.fila2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.texto2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.center{
+    justify-content: center;
+    display: flex;
+    width: 30%;
+    height: 30%;
+    padding: 15px;
+    background: #ffffff;
+}
+
+.flex-end{
+    justify-content: flex-end;
+    display: flex;
+    width: 30%;
+    height: 30%;
+    padding: 15px;
+    background: #ffffff;
+}
+
+.fila3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.texto3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.space-between{
+    justify-content: space-between;
+    display: flex;
+    width: 30%;
+    height: 30%;
+    padding: 15px;
+    background: #ffffff;
+}
+
+.space-around{
+    justify-content: space-around;
+    display: flex;
+    width: 30%;
+    height: 30%;
+    padding: 15px;
+    background: #ffffff;
+}
+
+
