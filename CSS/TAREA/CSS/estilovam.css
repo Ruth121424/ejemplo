@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hotpink;
+}
+
+h1{
+    color: rgb(6, 255, 243);
+    font-size: 50px;
+    text-align: center;
+}
+
+video{
+    width: 50%;
+    height: 50%;
+    margin: 3% 25%;
+}
+
+audio{
+    width: 50%;
+    margin: 2% 28%;
+}
+
+iframe{
+    margin: 2% 30%;
+
+}

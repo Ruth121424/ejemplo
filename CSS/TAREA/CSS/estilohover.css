@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 5%;
+}
+
+.cuadro1{
+    margin-left: 5%;
+    border:10px;
+    border: black 2px solid;
+    width: 16%;
+}
+
+.cuadro1:hover{
+    background: rgb(156, 59, 226);
+
+}
+
+.cuadro1 > .cv{
+    width: 100%;
+    height: 15vh;
+    background: rgb(3, 110, 3);
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.cuadro1 > .cv:hover{
+    background-color: hotpink;
+}
+
+.cuadro1 > .cb{
+    width: 100%;
+    height: 60vh;
+   
+}
+
+.cuadro1 > .cb > p{
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+
+.cuadro1 > .cb > p > .ne{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.cuadro1 > .cb > .lp{
+    width: 100%;
+    height: 3px;
+    border-bottom-color: rgb(0, 0, 0);
+    border-bottom: dotted;/*se utiliza para poner una linea de puntitos*/
+
+}
+
+.cuadro1 > .cb > .boton{
+    padding: 20px 80px;
+
+}
+
+.cuadro1 > .cb > .boton > button{
+    background-color: rgb(3, 110, 3);
+    border: 2px solid #2881bb;
+    width: 100px;
+    height: 40px;
+    color: #ffffff;
+}
+
+.cuadro1 > .cb > .boton > button:hover{
+    background: rgb(255, 251, 0);
+}
+
+.cuadro1 > .cb > .lv{
+    width: 100%;
+    height: 21px;
+    background-color:  rgb(3, 75, 13);
+}
+
+.cuadro2{
+    margin-left: 2%;
+    border:10px;
+    border: black 2px solid;
+    width: 16%;
+    height: 78.5vh;
+}
+
+.cuadro2 > .ca{
+    width: 100%;
+    height: 15vh;
+    background: rgb(247, 190, 4);
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.cuadro2 > .cb{
+    width: 100%;
+    height: 60vh;
+}
+
+.cuadro2 > .cb > p{
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+
+.cuadro2 > .cb > p > .ne{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.cuadro2 > .cb > .lp{
+    width: 100%;
+    height: 3px;
+    border-bottom-color: rgb(0, 0, 0);
+    border-bottom: dotted;
+}
+
+.cuadro2 > .cb > .boton{
+    padding: 20px 80px;
+
+}
+
+.cuadro2 > .cb > .boton > button{
+    background-color: rgb(248, 183, 3);
+    border: 2px solid #e98708;
+    width: 100px;
+    height: 40px;
+    color: #ffffff;
+}
+
+.cuadro2 > .cb > .boton > button:hover{
+    background: rgb(195, 0, 255);
+}
+
+.cuadro2 > .cb > .la{
+    width: 100%;
+    height: 21px;
+    background-color:  rgb(243, 187, 2);
+}
+
+.cuadro3{
+    margin-left: 2%;
+    border:10px;
+    border: black 2px solid;
+    width: 16%;
+    height: 78.5vh;
+}
+
+.cuadro3 > .cr{
+    width: 100%;
+    height: 15vh;
+    background: rgb(241, 12, 4);
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.cuadro3 > .cb{
+    width: 100%;
+    height: 60vh;
+}
+
+.cuadro3 > .cb > p{
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+
+.cuadro3 > .cb > p > .ne{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.cuadro3 > .cb > .lp{
+    width: 100%;
+    height: 3px;
+    border-bottom-color: rgb(0, 0, 0);
+    border-bottom: dotted;
+}
+
+.cuadro3 > .cb > .boton{
+    padding: 20px 80px;
+
+}
+
+.cuadro3 > .cb > .boton > button{
+    background-color: rgb(248, 183, 3);
+    border: 2px solid #e98708;
+    width: 100px;
+    height: 40px;
+    color: #ffffff;
+}
+
+.cuadro3 > .cb > .boton > button:hover{
+    background: rgb(11, 45, 241);
+}
+
+.cuadro3 > .cb > .lr{
+    width: 100%;
+    height: 21px;
+    background-color:  rgb(243, 2, 2);
+}
+
+.cuadro4{
+    margin-left: 2%;
+    border:10px;
+    border: black 2px solid;
+    width: 16%;
+    height: 78.5vh;
+}
+
+.cuadro4 > .caz{
+    width: 100%;
+    height: 15vh;
+    background: rgb(2, 57, 238);
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.cuadro4 > .cb{
+    width: 100%;
+    height: 60vh;
+}
+
+.cuadro4 > .cb > p{
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+
+.cuadro4 > .cb > p > .ne{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.cuadro4 > .cb > .lp{
+    width: 100%;
+    height: 3px;
+    border-bottom-color: rgb(0, 0, 0);
+    border-bottom: dotted;
+}
+
+.cuadro4 > .cb > .boton{
+    padding: 20px 80px;
+
+}
+
+.cuadro4 > .cb > .boton > button{
+    background-color: rgb(248, 183, 3);
+    border: 2px solid #e98708;
+    width: 100px;
+    height: 40px;
+    color: #ffffff;
+}
+
+.cuadro4 > .cb > .boton > button:hover{
+    background: rgb(214, 11, 241);
+}
+
+.cuadro4 > .cb > .la{
+    width: 100%;
+    height: 21px;
+    background-color:  rgb(6, 2, 243);
+}
+

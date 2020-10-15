@@ -18,6 +18,7 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
 .slider > ul{
     display: flex;/*Se utiliza para mover las imagenes de manera horizontal*/
     padding: 0px;

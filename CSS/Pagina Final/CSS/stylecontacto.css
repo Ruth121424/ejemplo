@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000000;
+}
+
+h1{
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 3%;
+    font-family: 'Merriweather', serif;
+}
+
+h1 > .c{
+    color: rgb(148, 197, 195);
+}
+
+.linea{
+    width: 70%;
+    border: 1px solid rgb(192, 219, 192);
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.menu{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 3%; */
+    /* margin-left: 5%; */
+    cursor: pointer;
+}
+
+.menu > ul{
+    display: flex;
+    float: left;
+    width: 70%;
+}
+
+.menu > ul > li{
+    float: left;
+    position: relative;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.menu > ul > li > a{
+    
+    width: 100%;
+    height: 70%;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 2% 1%;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    text-decoration: none;
+}
+
+.menu > ul > li:hover > a{
+    color:  rgb(192, 219, 192);
+}
+
+.menu > ul > li > ul{
+    display: none;
+    position: absolute;
+    list-style: none;
+}
+
+.menu > ul > li > ul > li > a{
+    width: 100%;
+    height: 70%;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 2% 1%;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    text-decoration: none;
+}
+
+.menu > ul > li > ul > li:hover > a{
+   color:  rgb(192, 219, 192)
+}
+
+.menu > ul > li:hover > ul{
+    display: block;
+    margin: 4% 2%;
+}
+
+.linea2{
+    width: 70%;
+    border: 1px solid rgb(192, 219, 192);
+    margin-left: 15%;
+}
+
+footer{
+    margin-left: 17%;
+    display: flex;
+    padding: 3%;
+}
+
+footer > p{
+    color: #ffffff;
+}
+
+.twitter{
+    margin-left: 50%;
+    border: 1px solid #000000;
+}
+
+.facebook{
+    margin-left: 1%;
+    border: 1px solid #000000;
+}
+
+
+.fa{
+    cursor: pointer;
+    background: snow;
+    color: slategray;
+    padding: 3px;
+}
+a{
+    color: rgb(192, 219, 192);
+}
+
+a:hover{
+    color: rgb(192, 219, 192);
+}
+
+.t{
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    height: 100%;
+    color: #ffffff;
+    margin-left: 27%;
+    margin-top: 8%;
+}
+
+.t > .cuadro{
+    width: 60%;
+    height: 50%;
+    margin-left: 2%;
+}
+
+.t > .cuadro > form > input{
+    width: 50%;
+    height: 5vh;
+    background: rgb(154, 83, 221);
+    color: #ffffff;
+    margin: 1%;
+}
+
+.t > .cuadro > form > input::placeholder{
+    color: #ffffff;
+    padding-left: 1%;
+}
+
+.t > .cuadro > form > input:hover{
+    border: solid 2px #ffffff ;
+}
+
+.t > .cuadro > form > textarea{
+    background:  rgb(154, 83, 221);
+    color: #ffffff;
+    padding-left: 1%;
+
+}
+
+.t > .cuadro > form > textarea:hover{
+    border: #ffffff solid 2px;
+}
+
+.t > .cuadro > form > .boton{
+    margin-left: 38%;
+
+}
+
+.t .cuadro > form > .boton > input{
+    background: blueviolet;
+    width: 20%;
+    height: 5vh;
+    padding-left: 1%;
+    color: #ffffff;
+}
+
+.t .cuadro > form > .boton > input:hover{
+    background: rgb(80, 3, 153);
+}
+

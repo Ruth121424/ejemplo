@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000000;
+}
+
+h1{
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 3%;
+    font-family: 'Merriweather', serif;
+}
+
+h1 > .c{
+    color: rgb(148, 197, 195);
+}
+
+.linea{
+    width: 70%;
+    border: 1px solid rgb(192, 219, 192);
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.menu{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 3%; */
+    /* margin-left: 5%; */
+    cursor: pointer;
+}
+
+.menu > ul{
+    display: flex;
+    float: left;
+    width: 70%;
+}
+
+.menu > ul > li{
+    float: left;
+    position: relative;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.menu > ul > li > a{
+    
+    width: 100%;
+    height: 70%;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 2% 1%;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    text-decoration: none;
+}
+
+.menu > ul > li:hover > a{
+    color:  rgb(192, 219, 192);
+}
+
+.menu > ul > li > ul{
+    display: none;
+    position: absolute;
+    list-style: none;
+}
+
+.menu > ul > li > ul > li > a{
+    width: 100%;
+    height: 70%;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 2% 1%;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    text-decoration: none;
+}
+
+.menu > ul > li > ul > li:hover > a{
+   color:  rgb(192, 219, 192)
+}
+
+.menu > ul > li:hover > ul{
+    display: block;
+    margin: 4% 2%;
+}
+
+.linea2{
+    width: 70%;
+    border: 1px solid rgb(192, 219, 192);
+    margin-left: 15%;
+}
+
+.t{
+    display: flex;
+    flex-flow: row wrap;
+    color: #ffffff;
+    margin-left: 20%;
+    margin-top: 8%;
+    font-size: 20px;
+}
+
+.t > .a{
+    font-size: 15px;
+    color: rgb(62, 143, 112);
+}
+
+.t > .a > pre{
+    font-size: 30px;
+} 
+
+.slider{
+    width: 40%;
+    height: 50vh;
+    margin-left: 30%;
+    overflow: hidden;
+    margin-top: 5%; 
+}
+
+.slider > ul{
+    display: flex;
+    padding: 0;
+    width: 1000%; 
+    animation: carrousel 15s infinite alternate;
+}
+
+.slider > ul > li{
+    width: 60%;
+    list-style: none;
+}
+.slider > ul > li > img{
+    width: 60%;
+}
+
+@keyframes carrousel {
+    0%{
+        margin-left: 0%;
+    }
+
+    5%{
+        margin-left: 0%;
+    }
+
+    10%{
+        margin-left: -100%;
+    }
+
+    15%{
+        margin-left: -100%;
+    }
+
+    20%{
+        margin-left: -200%;
+    }
+
+    25%{
+        margin-left: -200%;
+    }
+
+    30%{
+        margin-left: -300%;
+    }
+
+    35%{
+        margin-left: -300%;
+    }
+
+    40%{
+        margin-left: -400%;
+    }
+
+    45%{
+        margin-left: -400%;
+    }
+
+    50%{
+        margin-left: -500%;
+    }
+
+    55%{
+        margin-left: -500%;
+    }
+
+    60%{
+        margin-left: -600%;
+    }
+
+    65%{
+        margin-left: -600%;
+    }
+
+    70%{
+        margin-left: -700%;
+    }
+
+    75%{
+        margin-left: -700%;
+    }
+
+    80%{
+        margin-left: -800%;
+    }
+
+    85%{
+        margin-left: -800%;
+    }
+
+    90%{
+        margin-left: -900%;
+    }
+    100%{
+        margin-left: -900%;
+    }
+}
+
+footer{
+    margin-left: 17%;
+    display: flex;
+    padding: 3%;
+}
+
+footer > p{
+    color: #ffffff;
+}
+
+.twitter{
+    margin-left: 50%;
+    border: 1px solid #000000;
+}
+
+.facebook{
+    margin-left: 1%;
+    border: 1px solid #000000;
+}
+
+
+.fa{
+    cursor: pointer;
+    background: snow;
+    color: slategray;
+    padding: 3px;
+}
+a{
+    color: rgb(192, 219, 192);
+}
+
+a:hover{
+    color: rgb(192, 219, 192);
+}

@@ -1,0 +1,32 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    background: rgb(80, 205, 255);
+}
+
+h1{
+    text-align: center;
+    color: darkviolet;
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+video{
+    width: 50%;
+    height: 50%;
+    margin: 2% 25%;
+}
+
+audio{
+    margin: 2% 25%;
+    width: 50%;
+}
+
+iframe{
+    margin: 2% 30% ;
+    
+}
